@@ -58,7 +58,7 @@ public class StateContactVirtualDatapointHandler extends AbstractVirtualDatapoin
     }
 
     private boolean isApplicable(HmDevice device) {
-        return device.getType().startsWith("HMIP-SWDO");
+        return device.getType().startsWith("HMIP-SWD");
     }
 
     private Boolean convertState(Object value) {
